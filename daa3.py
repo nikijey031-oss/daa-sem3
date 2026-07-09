@@ -126,3 +126,23 @@ for u, v, w in p_mst:
     print(f"Edge ({u} - {v})  Weight: {w}")
 
 print(f"Total MST Cost: {p_cost}")
+
+OUTPUT:
+
+=== Kruskal's MST ===
+Edge (0 - 3)  Weight: 5
+Edge (2 - 4)  Weight: 5
+Edge (3 - 5)  Weight: 6
+Edge (0 - 1)  Weight: 7
+Edge (1 - 4)  Weight: 7
+Edge (4 - 6)  Weight: 9
+Total MST Cost: 39
+
+=== Prim's MST ===
+Edge (0 - 3)  Weight: 5
+Edge (3 - 5)  Weight: 6
+Edge (0 - 1)  Weight: 7
+Edge (1 - 4)  Weight: 7
+Edge (4 - 2)  Weight: 5
+Edge (4 - 6)  Weight: 9
+Total MST Cost: 39
