@@ -45,3 +45,18 @@ for size in sizes:
     print(f"Element Found at Index: {index}")
     print(f"Number of Comparisons: {comparisons}")
     print("-" * 40)
+
+OUTPUT:
+
+Dataset Size: 10000
+Element Found at Index: 8049
+Number of Comparisons: 3
+----------------------------------------
+Dataset Size: 50000
+Element Found at Index: 15702
+Number of Comparisons: 4
+----------------------------------------
+Dataset Size: 100000
+Element Found at Index: 4643
+Number of Comparisons: 4
+----------------------------------------
