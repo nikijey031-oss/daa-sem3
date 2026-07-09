@@ -69,3 +69,18 @@ else:
     else:
         print("Roll number not found")
     print("Number of probes =", b_probes)
+
+OUTPUT:
+
+Enter number of students: 5
+Enter sorted roll numbers:
+101 102 103 104 105
+Enter roll number to search: 103
+
+Interpolation Search:
+Roll number found at index 2
+Number of probes = 1
+
+Binary Search:
+Roll number found at index 2
+Number of probes = 1
