@@ -139,7 +139,6 @@ for p in patterns:
 
     print("{:>12} {:>10} {:>10} {:>10}".format(p, c1, c2, c3))
 
-
 OUTPUT:
 
 Text    : AABAACAADAABAABA
