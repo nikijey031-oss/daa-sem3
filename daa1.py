@@ -81,7 +81,6 @@ print(f"Found at index: {idx}, Comparisons: {comps}")
 print()
 performance_analysis()
 
-
 OUTPUT:
 
 Array: [2, 5, 10, 15, 23, 35, 48, 60, 75, 90, 105, 120]
